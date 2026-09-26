@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from ai_engine import get_ai_response
+from backend.config import OPENAI_API_KEY
 
 
 app = FastAPI(
